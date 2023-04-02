@@ -7,11 +7,11 @@ A short* guide to programming languages used in popular game engines
 
 # Unity
 Programming is primarily done in (in order of artist to engineering focused)
-1) [Visual Scripting](#Visual-Scripting)
-2) [UnityScript](#UnityScript)
-3) [JavaScript / Python / Lua](#JavaScript-/-Python-/-Lua)
-4) [C#](#C#)
-5) [C / C++ / Rust](#C-/-C++-/-Rust)
+1) [Visual Scripting](#1-Visual-Scripting)
+2) [UnityScript](#2-UnityScript)
+3) [JavaScript / Python / Lua](#3-JavaScript--Python--Lua)
+4) [C#](#4-C)
+5) [C / C++ / Rust](#5-C--C--Rust)
 
 Being familiar with 1 and 4 is almost certainly going to be a must have for any Unity focused technical role.
 ## 1) Visual Scripting
@@ -38,8 +38,8 @@ As for Unreal...
 
 # Unreal
 programming is primarily done in (in order of artist to engineering focused)
- 1) [Blueprints (Visual Scripting)](#Blueprints)
- 2) [C++](#C++)
+ 1) [Blueprints (Visual Scripting)](#1-Blueprints)
+ 2) [C++](#2-C)
 
 Yeah that's pretty much it... 
 
@@ -51,17 +51,17 @@ The entire engine of Unreal is open-source and written in C++, making it WILDLY 
 
 # Toolchains
 For everything that isn't in engine, you have toolchains. Going over an exhaustive list of every possible language a team could use is akin to going over every language invented. Most likely though:
-1) [Python](#Blueprints)
-2) [Shell languages e.g. Bash/Powershell](#Shell-Languages)
-3) [Javascript](#Javascript)
+1) [Python](#1-Python)
+2) [Shell languages e.g. Bash/Powershell](#2-Shell-Languages)
+3) [Javascript](#3-Javascript)
 
-## Python
+## 1) Python
 It's easy, it's slow, it'll do anything you want and it won't take a week to debug.
 
-## Shell Languages
+## 2) Shell Languages
 OS dependent, easy and slow, but also great for automating simple shit. Not quite as powerful as python, but also a lot simpler for some things like executing commands or moving around files. 
 
 I use both Python and shell languages every day to automate simple shit. Tired of typing in the same 3 commands? Write a python or shell script and now it's only one command (and you don't have to type in all the baked in argumenets) Inevitably given enough time, any of these tools will have features tacked onto them until using them is more complex than what they are designed to automate. So you make another script to automate your last script.
 
-## Javascript
+## 3) Javascript
 Internal web tooling, data visualizers, mock ups... I hate everything about it... For my own purposes Javascript with HTML5 is -fine- for anything that requires more visualization than is easy to do in Python. 
